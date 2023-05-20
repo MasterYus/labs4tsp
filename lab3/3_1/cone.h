@@ -11,25 +11,25 @@ const double PI = M_PI;
 class Cone {
 
 protected:
-    double x, y, z; // координаты центра основания
-    double radius;  // радиус
-    double height;  // высота
+    double x, y, z; // РєРѕРѕСЂРґРёРЅР°С‚С‹ С†РµРЅС‚СЂР° РѕСЃРЅРѕРІР°РЅРёСЏ
+    double radius;  // СЂР°РґРёСѓСЃ
+    double height;  // РІС‹СЃРѕС‚Р°
 
     friend ostream& operator <<(ostream& out, Cone c);
 
 public:
     Cone();
-    Cone(double r, double h); // конструктор конуса с центром в начале координат
-    Cone(double x, double y, double z, double r, double h); // конструктор произвольного конуса
+    Cone(double r, double h); // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРЅСѓСЃР° СЃ С†РµРЅС‚СЂРѕРј РІ РЅР°С‡Р°Р»Рµ РєРѕРѕСЂРґРёРЅР°С‚
+    Cone(double x, double y, double z, double r, double h); // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїСЂРѕРёР·РІРѕР»СЊРЅРѕРіРѕ РєРѕРЅСѓСЃР°
 
-    // Функции доступа
+    // Р¤СѓРЅРєС†РёРё РґРѕСЃС‚СѓРїР°
     void setCoordinate(double x, double y, double z);
     void setRadius(double r);
     void setHeight(double h);
     double getRadius();
     double getHeight();
 
-    double area(); // площадь полной поверхности
-    double volume(); // объём
+    double area(); // РїР»РѕС‰Р°РґСЊ РїРѕР»РЅРѕР№ РїРѕРІРµСЂС…РЅРѕСЃС‚Рё
+    double volume(); // РѕР±СЉС‘Рј
 
 }; // end of Cone

@@ -4,10 +4,10 @@
 class Bay : public Sea {
 
 protected:
-	string name;		// название
-	string location;	// местоположение
-	double area;		// площадь поверхности
-	double depth;		// глубина
+	string name;		// РЅР°Р·РІР°РЅРёРµ
+	string location;	// РјРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёРµ
+	double area;		// РїР»РѕС‰Р°РґСЊ РїРѕРІРµСЂС…РЅРѕСЃС‚Рё
+	double depth;		// РіР»СѓР±РёРЅР°
 
 	friend ostream& operator <<(ostream& out, Bay b);
 	friend istream& operator >>(istream& in, Bay& b);

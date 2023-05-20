@@ -10,7 +10,7 @@ Rational::Rational() {
 
 Rational::Rational(int a, int b) {
 	if (b == 0) {
-		cout << "Çíàìåíàòåëü äðîáè íå ìîæåò áûòü ðàâåí íóëþ!" << endl;
+		cout << "Ð—Ð½Ð°Ð¼ÐµÐ½Ð°Ñ‚ÐµÐ»ÑŒ Ð´Ñ€Ð¾Ð±Ð¸ Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ñ€Ð°Ð²ÐµÐ½ Ð½ÑƒÐ»ÑŽ!" << endl;
 		delete this;
 		return;
 	}
@@ -36,7 +36,7 @@ Rational::Rational(int a, int b) {
 
 void Rational::set(int a, int b) {
 	if (b == 0) {
-		cout << "Çíàìåíàòåëü äðîáè íå ìîæåò áûòü ðàâåí íóëþ!" << endl;
+		cout << "Ð—Ð½Ð°Ð¼ÐµÐ½Ð°Ñ‚ÐµÐ»ÑŒ Ð´Ñ€Ð¾Ð±Ð¸ Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ñ€Ð°Ð²ÐµÐ½ Ð½ÑƒÐ»ÑŽ!" << endl;
 		return;
 	}
 

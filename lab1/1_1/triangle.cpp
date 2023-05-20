@@ -12,9 +12,9 @@ void Triangle::set(double a, double b, double c) {
 }
 
 void Triangle::show() {
-	std::cout << "Сторона a: " << a << std::endl;
-	std::cout << "Сторона b: " << b << std::endl;
-	std::cout << "Сторона c: " << c << std::endl;
+	std::cout << "РЎС‚РѕСЂРѕРЅР° a: " << a << std::endl;
+	std::cout << "РЎС‚РѕСЂРѕРЅР° b: " << b << std::endl;
+	std::cout << "РЎС‚РѕСЂРѕРЅР° c: " << c << std::endl;
 }
 
 double Triangle::perimetr() {

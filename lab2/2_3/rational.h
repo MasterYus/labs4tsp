@@ -3,7 +3,7 @@
 class Rational {
 
 private:
-	int a, b; // числитель и знаменатель
+	int a, b; // С‡РёСЃР»РёС‚РµР»СЊ Рё Р·РЅР°РјРµРЅР°С‚РµР»СЊ
 
 	friend Rational operator -(Rational& r1, Rational& r2);
 	friend bool operator ==(Rational& r1, Rational& r2);

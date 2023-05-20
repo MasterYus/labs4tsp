@@ -6,8 +6,8 @@ using namespace std;
 class Eq2 {
 
 private:
-    double a, b, c; // коэффициенты уравнения
-    double D;       // дискриминант
+    double a, b, c; // РєРѕСЌС„С„РёС†РёРµРЅС‚С‹ СѓСЂР°РІРЅРµРЅРёСЏ
+    double D;       // РґРёСЃРєСЂРёРјРёРЅР°РЅС‚
 
     friend Eq2 operator +(Eq2& eq2_1, Eq2& eq2_2);
     friend ostream& operator <<(ostream& out, Eq2 eq);

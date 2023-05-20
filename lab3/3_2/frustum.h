@@ -6,24 +6,24 @@
 class Frustum : Cone {
 
 private:
-	double radius;	// радиус меньшего основания
-	double height;	// высота от центра большего основания до центра меньшего
+	double radius;	// СЂР°РґРёСѓСЃ РјРµРЅСЊС€РµРіРѕ РѕСЃРЅРѕРІР°РЅРёСЏ
+	double height;	// РІС‹СЃРѕС‚Р° РѕС‚ С†РµРЅС‚СЂР° Р±РѕР»СЊС€РµРіРѕ РѕСЃРЅРѕРІР°РЅРёСЏ РґРѕ С†РµРЅС‚СЂР° РјРµРЅСЊС€РµРіРѕ
 
 	friend ostream& operator <<(ostream& out, Frustum f);
 	friend istream& operator >>(istream& in, Frustum &f);
 
 public:
 	Frustum();
-	Frustum(double r, double h, double h2); // конструктор усечённого конуса с центром большего основания в начале координат
-	Frustum(double x, double y, double z, double r, double h, double h2); // конструктор произвольного усечённого конуса
-	Frustum(Cone& C, double h2); // конструктор копирования
+	Frustum(double r, double h, double h2); // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СѓСЃРµС‡С‘РЅРЅРѕРіРѕ РєРѕРЅСѓСЃР° СЃ С†РµРЅС‚СЂРѕРј Р±РѕР»СЊС€РµРіРѕ РѕСЃРЅРѕРІР°РЅРёСЏ РІ РЅР°С‡Р°Р»Рµ РєРѕРѕСЂРґРёРЅР°С‚
+	Frustum(double x, double y, double z, double r, double h, double h2); // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїСЂРѕРёР·РІРѕР»СЊРЅРѕРіРѕ СѓСЃРµС‡С‘РЅРЅРѕРіРѕ РєРѕРЅСѓСЃР°
+	Frustum(Cone& C, double h2); // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
 
-	// Функции доступа
+	// Р¤СѓРЅРєС†РёРё РґРѕСЃС‚СѓРїР°
 	void setRadius(double r);
 	void setHeight(double h);
 	double getRadiusFrustum();
 	
-	double area(); // площадь полной поверхности
-	double volume(); // объём
-	map<string, bool> compare(Frustum& f2); // метод сравнения конусов
+	double area(); // РїР»РѕС‰Р°РґСЊ РїРѕР»РЅРѕР№ РїРѕРІРµСЂС…РЅРѕСЃС‚Рё
+	double volume(); // РѕР±СЉС‘Рј
+	map<string, bool> compare(Frustum& f2); // РјРµС‚РѕРґ СЃСЂР°РІРЅРµРЅРёСЏ РєРѕРЅСѓСЃРѕРІ
 };

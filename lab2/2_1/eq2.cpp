@@ -22,17 +22,17 @@ void Eq2::set(double a, double b, double c) {
 
 double Eq2::find_X() {
     if (D < 0) {
-        cout << "Корней нет" << endl;
+        cout << "РљРѕСЂРЅРµР№ РЅРµС‚" << endl;
         return 0;
     }
     else {
         if (D == 0) {
             double x = (-b - sqrt(D)) / (2 * a);
-            cout << "Корень один: " << x << endl;
+            cout << "РљРѕСЂРµРЅСЊ РѕРґРёРЅ: " << x << endl;
             return x;
         }
         else {
-            cout << "Корней 2, наибольший: ";
+            cout << "РљРѕСЂРЅРµР№ 2, РЅР°РёР±РѕР»СЊС€РёР№: ";
             
             double x1 = (-b - sqrt(D)) / (2 * a);
             double x2 = (-b + sqrt(D)) / (2 * a);
