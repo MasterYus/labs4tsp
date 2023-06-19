@@ -149,6 +149,11 @@
     <ClCompile Include="lab3\3_3\bay.cpp" />
     <ClCompile Include="lab3\3_3\ocean.cpp" />
     <ClCompile Include="lab3\3_3\sea.cpp" />
+    <ClCompile Include="lab5\5_1\division.cpp" />
+    <ClCompile Include="lab5\5_2\IndexLowerException.cpp" />
+    <ClCompile Include="lab5\5_2\IndexOutOfRangeException.cpp" />
+    <ClCompile Include="lab5\5_2\IndexUpperException.cpp" />
+    <ClCompile Include="lab5\5_3\EmptySetException.cpp" />
     <ClCompile Include="labs4tsp.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +167,10 @@
     <ClInclude Include="lab3\3_3\bay.h" />
     <ClInclude Include="lab3\3_3\ocean.h" />
     <ClInclude Include="lab3\3_3\sea.h" />
+    <ClInclude Include="lab5\5_2\IndexLowerException.h" />
+    <ClInclude Include="lab5\5_2\IndexOutOfRangeException.h" />
+    <ClInclude Include="lab5\5_2\IndexUpperException.h" />
+    <ClInclude Include="lab5\5_3\EmptySetException.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
